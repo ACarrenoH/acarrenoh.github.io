@@ -7,7 +7,7 @@ title: Publications
 
 <h2><b>Journal articles</b></h2>
 
-[1] **A. Carreno**, M. Malinowski, M. A. Perez and J. Ding, "Effects of Grid Voltage and Load Unbalances on the Efficiency of a Hybrid Distribution Transformer," in *IEEE Open Journal of the Industrial Electronics Society*, vol. 5, pp. 1206-1220, 2024.
+[1] **A. Carreno**, M. Malinowski, M. A. Perez and J. Ding, "<a href="https://doi.org/10.1109/OJIES.2024.3486353">Effects of Grid Voltage and Load Unbalances on the Efficiency of a Hybrid Distribution Transformer</a>," in *IEEE Open Journal of the Industrial Electronics Society*, vol. 5, pp. 1206-1220, 2024.
 
 [2] **A. Carreno**, M. Malinowski, M. A. Perez and C. R. Baier, "Circulating Active Power Flow Analysis in a Hybrid Transformer With the Series Converter Connected to the Primary Side," in *IEEE Transactions on Industrial Electronics*, vol. 71, no. 10, pp. 11775-11784, Oct. 2024.
 
