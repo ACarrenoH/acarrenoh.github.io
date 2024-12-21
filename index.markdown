@@ -38,9 +38,26 @@ layout: page
 
 <h2><b>Available Engineering and Master projects</b></h2>
 
-<div style="text-align: justify;"> Dissertation topics for engineering and master students are available below. Contact me at <a href= "mailto:alvaro.carreno@pw.edu.pl">alvaro.carreno@pw.edu.pl</a>.
+<div style="text-align: justify;"> Dissertation topics for engineering and master students are available below. Please, contact me at <a href= "mailto: {{ site.email }}">{{ site.email }}</a>.
 </div>
-<br>
-[1. Design of a Dual Active Bridge cell]({% post_url 2024-12-17-dab %})
 
-[2. Comparison and analysis of Hybrid Distribution Transformer configurations]({% post_url 2024-12-17-Comparison %})
+<ul>
+  {% for post in site.posts %}
+    {% if post.tags contains 'Projects' and post.tags contains 'Available' %}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<!--<h2><b>Students</b></h2>-->
+<!---->
+<!--<ul>-->
+<!--  {% for post in site.posts %}-->
+<!--    {% if post.tags contains 'Projects' and post.tags contains 'Taken' %}-->
+<!--      <li>{{ post.student }}, {{ post.grade }}, {{ post.semester }}, <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>-->
+<!--            -->
+<!--    {% endif %}-->
+<!--  {% endfor %}-->
+<!--</ul>-->
+
+

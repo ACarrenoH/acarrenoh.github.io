@@ -1,10 +1,49 @@
 ---
 layout: post
-title:  "Design of a Dual Active Bridge cell"
+title:  "Design of a Dual-Active Bridge Converter Cell"
 date:   2024-12-17 00:00:00 +0100
 categories: jekyll update
+tags: Projects Available
+student:
+grade:
+semester:
 ---
-Hola
 
-<img align="center" src="{{site.baseurl | prepend: site.url}}/Files/Images/Fig3PL.png">
+<div style="text-align: justify;">
+A Dual Active Bridge (DAB) is a type of bidirectional DC-DC converter widely used in applications requiring efficient and controlled power transfer between two DC voltage sources, such as in renewable energy systems, battery management, electric vehicles, and smart grids. It is especially valued for its high efficiency, flexibility, and its ability to control power flow in both directions.
+</div>
 
+<div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
+    <img src="{{site.baseurl | prepend: site.url}}/Files/Images/DAB.png" width="500">
+</div>
+
+<div style="text-align: justify;">
+Some applications of DABs include:<br>
+<ol>
+  <li>Battery Energy Storage Systems.</li>
+  <li>Electric Vehicles.</li>
+  <li>Renewable Energy Sources Integration.</li>
+  <li>Uninterruptible Power Supplies.</li>
+</ol>
+</div>
+
+<div style="text-align: justify;">
+DABs are also employed in Solid-State Transformers (SSTs) thanks to the galvanic isolation, voltage conversion, bidirectional power flow, and compact, efficient operation that they provide. The figure shown below presents an SST based on DABs. To achieve integration into the medium voltage grid, they are connected in series, whereas on the low voltage side, they are connected in parallel to allow for high-current delivery.</div>
+
+<div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
+    <img src="{{site.baseurl | prepend: site.url}}/Files/Images/SST.png" width="500">
+</div>
+
+<h2>General tasks</h2>
+
+<b style="color:red">*This work only focuses on the design of one DAB cell for a Solid-State Transformer.</b>
+
+<div style="text-align: justify;">
+<ul>
+<li>Design of the Dual-Active Bridge converter: Components design and selection.</li>
+<li>Simulation model in Plecs.</li>
+<li>Schematic and PCB design in EDA software, such as Altium or Kicad.</li>
+</ul>
+</div>
+
+Please, contact me at <a href= "mailto: {{ site.email }}">{{ site.email }}</a>.
