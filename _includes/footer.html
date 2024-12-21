@@ -1,0 +1,22 @@
+<footer class="site-footer h-card">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+
+      {%- if site.title %}
+        <ul class="contact-list">
+          {% if site.title -%}
+            <li class="p-name">{{ site.title | escape }}</li>
+          {% endif -%}
+          {% if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif %}
+        </ul>
+      {%- endif %}
+
+    </div>
+
+  </div>
+
+</footer>
