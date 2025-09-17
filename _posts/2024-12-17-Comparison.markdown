@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Comparison and Analysis of Hybrid Distribution Transformer Configurations"
+title:  "Comparison and analysis of Hybrid Distribution Transformer configurations"
 date:   2024-12-17 00:00:00 +0100
 categories: jekyll update
 tags: Projects Available

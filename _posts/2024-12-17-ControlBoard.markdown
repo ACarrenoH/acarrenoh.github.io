@@ -3,7 +3,7 @@ layout: post
 title:  "Control board design for power converters testing"
 date:   2025-05-11 00:00:00 +0100
 categories: jekyll update
-tags: Projects Available
+tags: Projects NotAvailable
 student:
 grade:
 semester:
